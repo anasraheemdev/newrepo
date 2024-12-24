@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circlehubtio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      background-color: #1d2127;
+      color: #fff;
+    }
+    .nav-link {
+      color: #adb5bd;
+    }
+    .nav-link.active {
+      color: #fff;
+    }
+    .user-profile {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .bottom-bar {
+      background-color: #2a2e35;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#" class="navbar-brand text-white">
+        <i class="fas fa-circle"></i> Circlehubtio
+      </a>
+      <div class="d-flex align-items-center">
+        <form class="d-flex me-3">
+          <input class="form-control me-2" type="search" placeholder="Search Circlehubtio" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <div class="d-flex align-items-center">
+          <a href="#" class="text-white me-3"><i class="fas fa-home"></i></a>
+          <a href="#" class="text-white me-3"><i class="fas fa-file-alt"></i></a>
+          <a href="#" class="text-white me-3"><i class="fas fa-user"></i></a>
+          <a href="#" class="text-white me-3"><i class="fas fa-play"></i></a>
+          <a href="#" class="text-white me-3"><i class="fas fa-envelope"></i></a>
+          <a href="#" class="text-white me-3"><i class="fas fa-bell"></i></a>
+          <img src="https://via.placeholder.com/50" alt="User Avatar" class="user-profile">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <nav class="nav flex-column">
+          <a href="#" class="nav-link active"><i class="fas fa-home me-2"></i> Home</a>
+          <a href="#" class="nav-link"><i class="fas fa-users me-2"></i> People</a>
+          <a href="#" class="nav-link"><i class="fas fa-calendar-alt me-2"></i> Event</a>
+          <a href="#" class="nav-link"><i class="fas fa-file-alt me-2"></i> Pages</a>
+          <a href="#" class="nav-link"><i class="fas fa-users me-2"></i> Group</a>
+          <a href="#" class="nav-link"><i class="fas fa-store me-2"></i> Marketplace</a>
+          <a href="#" class="nav-link"><i class="fas fa-bookmark me-2"></i> Saved</a>
+          <a href="#" class="nav-link"><i class="fas fa-star me-2"></i> Favorites</a>
+          <a href="#" class="nav-link"><i class="fas fa-cog me-2"></i> Settings</a>
+        </nav>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-dark mb-3">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <img src="https://via.placeholder.com/50" alt="Lerio Mao" class="user-profile me-3">
+              <h5 class="card-title mb-0">Lerio Mao</h5>
+            </div>
+            <textarea class="form-control bg-dark text-white" rows="3" placeholder="Write something to Lerio..."></textarea>
+            <div class="d-flex justify-content-between mt-3">
+              <button class="btn btn-primary"><i class="fas fa-video"></i> Live</button>
+              <button class="btn btn-primary"><i class="fas fa-image"></i> Photo/Video</button>
+              <button class="btn btn-primary"><i class="fas fa-chart-line"></i> Fallings/Activity</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-dark mb-3">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Alen Lio">
+              <div class="card-body">
+                <h5 class="card-title">Alen Lio</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark mb-3">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Josep">
+              <div class="card-body">
+                <h5 class="card-title">Josep</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark mb-3">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Jessica">
+              <div class="card-body">
+                <h5 class="card-title">Jessica</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark mb-3">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Lori Cortez">
+              <div class="card-body">
+                <h5 class="card-title">Lori Cortez</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="col-md-3">
+        <div class="card bg-dark mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Request <span class="badge bg-primary">2</span></h5>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50" alt="Lerio Mao" class="user-profile me-3">
+                <h6 class="mb-0">Lerio Mao</h6>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-sm me-2">Confirm</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50" alt="Martinez" class="user-profile me-3">
+                <h6 class="mb-0">Martinez</h6>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-sm me-2">Confirm</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-dark mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Contact</h5>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50" alt="Piter Maio" class="user-profile me-3">
+                <h6 class="mb-0">Piter Maio</h6>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-comments"></i></button>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <div class="d-flex align-items-center">
+                <img src="https://via.placeholder.com/50" alt="Floyd Miles" class="user-profile me-3">
+                <h6 class="mb-0">Floyd Miles</h6>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-sm"><i class="fas fa-comments"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bottom-bar">
+    <div class="container d-flex justify-content-around">
+      <a href="#" class="text-white"><i class="fas fa-home"></i></a>
+      <a href="#" class="text-white"><i class="fas fa-search"></i></a>
+      <a href="#" class="text-white"><i class="fas fa-camera"></i></a>
+      <a href="#" class="text-white"><i class="fas fa-comments"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
